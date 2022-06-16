@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover {
+    width: 40%;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.subtitle {
+    font-size: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.input {
+    border-radius: 5px;
+    height: 2vh;
+    margin-bottom: 5%;
+    border-width: 1px;
+    padding: 5px;
+}
+
+.button {
+    border-radius: 5px;
+    /* height: 3vh; */
+    border: transparent;
+    background-color: brown;
+    color: #fff;
+    width: 15vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    align-items: center;
+    text-align: center;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dog-photo {
+    width: 17vw;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
